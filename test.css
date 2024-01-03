@@ -73,7 +73,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 105, 175, 0.523);
-    border-radius: 70%;
+    border-radius: 50%;
     color: rgb(238, 255, 0);
     font-size: 0.5vw;
     position: absolute;
@@ -107,3 +107,18 @@ body {
 
 }
 
+#hack::after{
+    content: "Hackathon";
+}
+#junk::after{
+    content: "JunkYard";
+}
+#tech::after{
+    content: "TechExpo";
+}
+#trade::after{
+    content: "TraderX";
+}
+#room::after{
+    content: "Situation Room";
+}
